@@ -12,4 +12,5 @@ This is a simple **room booking system** for KBFRC, allowing users to **view roo
 ## 🖥️ Integrating into the Website
 1. **Copy the HTML** on GitHub
 2. **Add to existing website**
-3. **Replace embed links** 
+3. **Make Google Calendar available to public** by checking the box in settings
+4. **Replace embed links** 
