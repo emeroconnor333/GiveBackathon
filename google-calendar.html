@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Booking - KBFRC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        .booking-info {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+            background: #ffd700;
+            padding: 15px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Check Room Availability</h1>
+        <p>View available room slots below.</p>
+
+        <!-- Google Calendar Embed -->
+        <iframe src="https://calendar.google.com/calendar/embed?src=a43e4d5bcd73765fda52eee0323335323a43237664abdca52480f084fd202437%40group.calendar.google.com&ctz=Europe%2FDublin" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+        <div class="booking-info">
+            <p>To book a room, please email: <a href="mailto:info@kbfrc.ie">info@kbfrc.ie</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

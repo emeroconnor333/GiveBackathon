@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Room Booking</title>
+    <title>Room Booking Options - KBFRC</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            text-align: center;
+            margin: 0;
+            padding: 0;
             background-color: #f4f4f4;
+            text-align: center;
         }
         .container {
             max-width: 800px;
-            margin: auto;
+            margin: 50px auto;
             background: white;
             padding: 20px;
             border-radius: 10px;
@@ -22,30 +23,38 @@
         h1 {
             color: #333;
         }
-        iframe, .calendly-inline-widget {
-            width: 100%;
-            height: 700px;
-            border: none;
+        p {
+            font-size: 18px;
+            color: #555;
         }
-        footer {
+        .options {
             margin-top: 20px;
-            font-size: 14px;
-            color: #666;
+        }
+        .button {
+            display: block;
+            margin: 10px auto;
+            padding: 15px 20px;
+            width: 60%;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background: #0056b3;
         }
     </style>
 </head>
 <body>
-
     <div class="container">
-        <h1>Book a Counselling Room</h1>
-        <p>Check room availability and schedule your booking below.</p>
+        <h1>Choose Your Booking Option</h1>
+        <p>Select an option below to proceed:</p>
 
-        <!-- Calendly inline widget -->
-        <!-- Calendly inline widget begin -->
-        <div class="calendly-inline-widget" data-url="https://calendly.com/emeroconnor333/room-1" style="min-width:320px;height:700px;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-        <!-- Calendly inline widget end -->
+        <div class="options">
+            <a href="calendly.html" class="button">Option 1: Book via Calendly</a>
+            <a href="google-calendar.html" class="button">Option 2: View Google Calendar & Email to Book</a>
+        </div>
     </div>
-
 </body>
 </html>
